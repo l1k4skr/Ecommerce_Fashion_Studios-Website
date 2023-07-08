@@ -26,8 +26,7 @@ function Singup({singup}) {
     const onSubmit = e => {
         e.preventDefault();
         singup(first_name, last_name, email, password, re_password)
-        setAccountCreated(true)
-        
+        setAccountCreated(true)        
     }
 
     return (
